@@ -1,0 +1,40 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #222;
+}
+img{
+    max-width: 100%;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+section header {
+    background: none; /* Убираем фон */
+}
+.warning  {
+    overflow: hidden; /* Отменяем обтекание */
+    margin: 30px 0; /* Отступ сверху и снизу */
+}
+.voodoohead {
+    float: left; /* Обтекание справа */
+}
+.warning H1, .warning P {
+    margin: 0 0 0 70px; /* Отступы */
+}
